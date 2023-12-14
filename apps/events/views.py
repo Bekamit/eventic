@@ -4,7 +4,7 @@ from rest_framework.response import Response
 from .models import Event
 from .serializers import EventSerializer
 
-import django_filters
+# import django_filters
 
 
 class EventRetrieveAPIView(generics.RetrieveAPIView):
